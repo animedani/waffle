@@ -1,0 +1,12 @@
+Settings
+.
+├── .github/
+│   └── workflows/
+│       └── rdp.yml       # The main GitHub Actions workflow
+├── scripts/
+│   ├── Cleanup.ps1       # Cleans up all resources
+│   ├── Configure-RDP.ps1 # Configures RDP and firewall
+│   ├── Connect-Tailscale.ps1 # Connects to Tailscale
+│   ├── Create-RDPUser.ps1  # Creates the temporary RDP user
+│   └── Install-Tailscale.ps1 # Downloads and installs Tailscale
+└── README.md             # This file
